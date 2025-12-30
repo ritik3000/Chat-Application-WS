@@ -213,10 +213,6 @@ Add custom animations in `fe/src/App.css`:
 - [ ] Message editing & deletion
 - [ ] Emoji picker
 - [ ] Dark/Light theme toggle
-- [ ] Audio/Video calling
-- [ ] Message search functionality
-- [ ] User profiles
-- [ ] Admin controls
 
 ## 📄 License
 
