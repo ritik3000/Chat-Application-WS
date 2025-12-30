@@ -85,6 +85,18 @@ The React app will be available at `http://localhost:5173`
 - Your messages appear on the right (green), others on the left (dark)
 - Leave the room anytime with the **"Leave Room"** button
 
+
+## App preview
+
+Below is a screenshot of the **App**.
+
+![Landing Page](fe/public/LandingPage.png)
+---
+![Signup Page](fe/public/SignupPage.png)
+---
+![Chat Page](fe/public/ChatPage.png)
+---
+
 ## 🏗️ Project Structure
 
 ```
