@@ -150,59 +150,6 @@ The frontend connects to `ws://localhost:8081` by default. Edit `fe/src/socket.t
 socket = new WebSocket('ws://localhost:8081');
 ```
 
-## 📦 Build for Production
-
-### Backend
-```bash
-cd backend
-npm run build  # Compiles TypeScript
-npm run dev    # Runs from compiled dist/
-```
-
-### Frontend
-```bash
-cd fe
-npm run build  # Creates optimized build in dist/
-npm run preview # Preview the production build locally
-```
-
-## 🔐 Security Notes
-
-- Current implementation uses plain WebSocket (ws://)
-- For production, use **WSS** (WebSocket Secure) with SSL/TLS
-- Messages are not encrypted in transit
-- No authentication system currently implemented
-- Use in trusted networks only
-
-## 🎨 Customization
-
-### Theme Colors
-Edit `fe/tailwind.config.js` to customize the color scheme:
-```javascript
-colors: {
-    primary: "#22c55e",      // Green
-    primaryDark: "#16a34a",
-    // ... more colors
-}
-```
-
-### Animations
-Add custom animations in `fe/src/App.css`:
-```css
-@keyframes customAnimation {
-    /* Your animation */
-}
-```
-
-## 📱 Browser Support
-
-- Chrome/Chromium 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
-
 ## Future Enhancements
 
 - [ ] User authentication & authorization
